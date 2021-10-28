@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM debian:latest
  MAINTAINER lokmen-apache
  RUN apt-get -yqq update && apt-get install -yqq apache2
  WORKDIR /var/www/html
